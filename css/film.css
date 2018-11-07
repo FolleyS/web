@@ -1,0 +1,177 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+  background-color: #D8BFD8;
+  color: #1b2726;
+	font-size: 20px;
+}
+
+h1 {
+  color: black;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 350px;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.head_title {
+  display: flex;
+	justify-content: center;
+	width: 100%;
+  height: 50px;
+
+}
+
+.head_img {
+  display: flex;
+	justify-content: flex-start;
+  min-width: 210px;
+  height: 300px;
+}
+
+.head_img img {
+  margin: 20px;
+  height: 250px;
+}
+
+.head_text {
+  display: flex;
+	justify-content: flex-start;
+  min-width: 500px;
+	width: 80%;
+  height: 300px;
+}
+
+.head_text_p {
+  margin: 20px;
+}
+
+.photo {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.photo_title {
+  display: block;
+  float: left;
+
+  width: 100%;
+  height: 50px;
+
+  color: #f5f5f5;
+	background-color: #DC143C;
+}
+
+
+.photo_title h3 {
+  margin: 10px 20px;
+  text-align: center;
+
+}
+
+.photo_img {
+	display: block;
+	float: left;
+  width: 100%;
+  height: 250px;
+}
+
+.photo_img  img {
+  width: 320px;
+  height: 240px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.photo_img_c{
+	margin: 0 0;
+	margin-left:  12px;
+}
+
+.desc_title {
+  display: block;
+  float: left;
+
+
+  width: 100%;
+  height: 50px;
+
+  color: #f5f5f5;
+	background-color: #DC143C;
+}
+
+
+.description {
+  display: block;
+  float: left;
+  margin: 20px 0 0 0;
+}
+
+.desc_title h3 {
+  margin: 10px 20px;
+  text-align: center;
+}
+
+.desc_text {
+	display: block;
+	float: left;
+	margin: 20px;
+}
+
+.desc_text p{
+  text-align: justify;
+  text-indent: 25px;
+}
+
+
+caption {
+	font-size: 30px;
+	color: #005b95;
+  text-align: center;
+	margin: 10px 0;
+}
+
+.block {
+	display: flex;
+		justify-content: space-around;
+	margin: 20px 0;
+}
+
+.txt1 p {
+  display: block;
+  float: left;
+  margin: 20px 0 0 0;
+}
+
+.txt2 p {
+  display: block;
+  float: left;
+  margin: 20px 0 0 0;
+}
+
+.txt3 p {
+  display: block;
+  float: left;
+  margin: 20px 0 0 0;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  height: 20px;
+  text-align: right;
+}
+
+footer p {
+  margin-right: 10px;
+  font-weight: bold;
+}
